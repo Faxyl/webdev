@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #40514E;
+  margin: 0;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 8%;
+  border-top: 17px;
+  border-style: dotted;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+/*--------------classes----------*/
+.topcontainer {
+  background-color: #E4F6F6;
+  padding: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #6effff);
+  background-image: -moz-linear-gradient(top, #66BFBF, #6effff);
+  background-image: -ms-linear-gradient(top, #66BFBF, #6effff);
+  background-image: -o-linear-gradient(top, #66BFBF, #6effff);
+  background-image: linear-gradient(to bottom, #66BFBF, #6effff);
+  text-decoration: none;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 250px bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 10px;
+}
+
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profilepic {
+  position: relative;
+  height: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+}
+
+.skillphoto {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.skillsurf {
+  width: 25%;
+  float: right;
+  padding: 10px;
+}
